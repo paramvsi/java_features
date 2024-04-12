@@ -108,3 +108,16 @@ The Future interface represents the result of an asynchronous computation. It pr
 ### CompletableFuture
 CompletableFuture is an extension of the Future interface that provides a lot of flexibility and allows for more complex asynchronous operations. It can be manually completed and used to build complex asynchronous pipelines. CompletableFuture also provides a lot of methods for composing, combining, and handling asynchronous computation steps.
 
+## Java 8 Features
+
+- Lambda Expressions: One of the most significant additions, lambda expressions simplify the writing of implementations for interfaces that have a single abstract method (functional interfaces). They provide a clear and concise way to represent one method interface using an expression.
+
+- Stream API: Java 8 introduced the Stream API, which allows for declarative processing of collections of objects. This API supports sequence operations like filter, map, reduce, find, match, sort, etc. Streams can be parallel or sequential.
+
+- Optional: Optional is a container object used to contain not-null objects. Optional object is used to represent null with absent value. This class has various utility methods to facilitate code to handle values as ‘available’ or ‘not available’ instead of checking null values.
+
+- Default and Static Methods in Interfaces: Java 8 allows interfaces to have default and static methods. A default method includes an implementation and can be included in any interface, providing backward compatibility for old interfaces. Static methods in interfaces help in providing utility methods.
+
+- Date and Time API: An improved, immutable Joda-Time-inspired Date and Time API. This new API is found under the java.time package and provides functionalities for date, time, duration, and periods.
+
+- Method References: Method references help to point to methods by their names. A method reference is described using "::" symbol. They serve as shorthand for lambda expressions calling a single method.
